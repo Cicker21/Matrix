@@ -6,21 +6,6 @@
         static int Counter;
         static Random randomPosition = new Random();
 
-
-    static void Main2() {
-        
-        for (int i = 0; i < 10000; i++)
-        {
-            char a = (char)('0' + i);
-            char b = (char)('a' + i);
-            char c = (char)('A' + i);
-            if(a.ToString() != "?") { Console.Write(a); }
-            if (b.ToString() != "?") { Console.Write(b); }
-            if (c.ToString() != "?") { Console.Write(c); }
-
-        }
-    }
-
         static int flowSpeed = 100;
         static int fastFlow = flowSpeed + 30;
         static int textFlow = flowSpeed + 500;
